@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.header--area {
+  width: 100%;
+  padding-top: 30px;
+  height: 80px;
+}
+.inner--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate--area {
+  margin-top: 10px;
+}
+.donate--area a {
+  text-decoration: none;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #15c798;
+  font-size: 15px;
+  border-radius: 999px;
+  display: block;
+}
+
+.banner--area {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.work--area {
+  width: 100%;
+  padding-top: 40px;
+}
+.inner--work {
+  display: flex;
+  justify-content: space-between;
+}
+.left--side {
+  width: 70%;
+  padding: 20px 20px;
+}
+.announcements--area h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.announcements--text {
+  font-size: 16px;
+  color: #a4a0a0;
+  max-width: 813px;
+}
+.eid {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 30px 30px;
+  margin: 45px 0 45px 0;
+  max-width: 800px;
+}
+.eid--logo img {
+  max-width: 275px;
+}
+.eid--announcements {
+  padding: 15px 35px;
+}
+.date {
+  margin-bottom: 20px;
+  color: #15c798;
+  font-size: 20px;
+}
+.eid--announcements h3 {
+  font-size: 39px;
+  margin-bottom: 15px;
+}
+.eid--text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #a4a0a0;
+  max-width: 500px;
+}
+.announcements--link {
+  text-decoration: none;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #15c798;
+  font-size: 15px;
+  border-radius: 999px;
+}
+.holi--ashura {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 30px 30px;
+  margin: 45px 0 45px 0;
+  max-width: 800px;
+}
+.ashura--logo img {
+  max-width: 275px;
+}
+.ashura--announcements {
+  padding: 15px 35px;
+}
+.ashura--announcements h3 {
+  font-size: 39px;
+  margin-bottom: 15px;
+}
+.ashura--text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #a4a0a0;
+  max-width: 500px;
+}
+.view {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #15c798;
+  font-size: 19px;
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+}
+.right--side {
+  width: 30%;
+}
+.prayers-heading {
+  font-size: 18px;
+  color: #fff;
+  background-color: #15c798;
+  padding: 25px 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 25px 25px 0 0;
+}
+.prayer::before {
+  background-color: #af0f0f;
+  top: 135px;
+  content: "";
+  height: 4px;
+  left: 35px;
+  position: absolute;
+  width: 74px;
+  border-radius: 10px;
+}
+.inner--prayer {
+  display: flex;
+  justify-content: space-between;
+}
+.inner--prayer {
+  border: 1px solid #ddd;
+  border-radius: 0 0 20px 20px;
+  padding: 15px 25px;
+}
+.inner--prayer--times {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.prayer--times {
+  width: 70%;
+}
+.prayer--times h4 {
+  font-size: 25px;
+  color: #15c798;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.prayer--times p {
+  font-size: 16px;
+  width: 367px;
+  margin: 25px 0 30px 0;
+  color: #858484;
+}
+.prayer--names {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.friday--prayer {
+  width: 30%;
+}
+.friday--prayer h5 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #858484;
+}
+.prayers--list li {
+  margin-bottom: 40px;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.prayers--list  img {
+  max-width: 18px;
+  margin-top: -6px;
+}
+.prayer--time {
+  position: relative;
+  margin-top: -112px;
+  z-index: 1;
+}
+.iqamah--times {
+  padding: 25px 0 0 0;
+}
+.iqamah--times h5 {
+  font-size: 18px;
+  color: #fff;
+  background-color: #15c798;
+  padding: 25px 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 25px 25px 0 0;
+}
+.inner--iqamah {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0 0 20px 20px;
+  padding: 40px 0px 0px 25px;
+}
+
+.inner--iqamah li {
+  margin-bottom: 35px;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inner--iqamah li  img {
+  max-width: 18px;
+  margin-top: -6px;
+}
+.help--us {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  border-radius: 25px;
+  margin-top: 25px;
+  padding: 220px 70px 45px 50px;
+}
+.help--us h2 {
+  font-size: 45px;
+  margin: 0 82px 22px -41px;
+  color: #fff;
+}
+.help--us p {
+  color: #707070;
+  margin-bottom: 20px;
+}
+.help--us a {
+  text-decoration: none;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #15c798;
+  font-size: 15px;
+  border-radius: 999px;
+  margin: 4px 0 0 -150px;
+}
+/* table{
+  width: 500px;
+  border:1px solid #ddd ;
+border-radius: 25px 25px 0 0; 
+}
+.prayers--heading{
+  background-color: #15c798;
+  padding: 25px 0;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 25px 25px 0 0;
+}
+.right{
+  text-align: right;
+  position: relative;
+  top: -35px;
+  padding-right: 20px;
+  font-size: 18px;
+font-weight: bold;
+}
+.center{
+  position: relative;
+  right: -60px;
+  padding-bottom: 30px;
+  top: -20px;
+}
+.friday{
+  text-align: right;
+  padding: 20px 20px 20px 0;
+  border-bottom:1px solid #ddd;
+  color: #858484;
+}
+.prayers{
+  font-size: 24px;
+  padding-left: 20px;
+  border-bottom:1px solid #ddd;
+  color: #15c798;
+}
+.tble--text{
+  padding: 10px 0 30px 0;
+  color: #858484;
+  
+}
+.name{
+padding-bottom: 60px;
+padding-left: 20px;
+font-size: 18px;
+font-weight: bold;
+} */
+.about--area{
+  padding: 120px 0 0 0;
+}
+.about--area h2{
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.about--area p{
+ color: #A4A0A0;
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+.direction--link{
+  text-decoration: none;
+  padding: 10px 35px;
+  color: #fff;
+  background-color: #15c798;
+  font-size: 15px;
+  border-radius: 999px;
+  margin: 0 0 0 -35px;
+  position: relative;
+  top: -18px;
+  right: -696px;
+}
+.inner--about ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 22px; */
+}
+.line--text{
+  width: 178px;
+  color: #000;
+  margin-top: 20px;
+}
+.station--text{
+  width: 150px;
+  color: #000;
+  margin-top: 20px;
+}
+.exit--text{
+  width: 90px;
+  color: #000;
+  margin-top: 20px;
+}
+.walking--text{
+  width: 60px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.address--text{
+  width: 443px;
+  color: #000;
+  margin-top: 20px;
+}
+.line{
+  color: #15c798;
+  margin-top: 20px;
+}
+.map img{
+  max-width: 815px;
+  padding: 30px 0;
+}
+.contact--area{
+  padding: 50px 0;
+  background-color: #F5F9F8;
+}
+.inner--contact{
+  display: flex;
+  justify-content: space-between;
+}
+.misato--masjid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  }
+.misato--masjid p{
+color: #858484;
+margin: 20px  0px 0 0;
+max-width: 335px;
+}
+.misato--masjid ul{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 10px; */
+}
+.miner img{
+  max-width: 75px;
+}
+.miner--text ul{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.miner--text h4{
+  font-size: 23px;
+ }
+.masjid{
+  color: #15c798;
+}
+.mobile{
+  color: #15c798;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.mobile li{
+  color: #000;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.navigations{
+  position: relative;
+  left: -127px;
+}
+.navigations h4{
+  font-size: 23px;
+    }
+.navigations li{
+margin-top:25px; 
+  }
+.navigations a{
+text-decoration: none;
+color: #858484;
+font-size: 16px;
+}
+.library{
+  position: relative;
+  left: -150px;
+}
+.library h4{
+  font-size: 23px;
+    }
+.library li{
+margin-top:25px; 
+  }
+.library a{
+text-decoration: none;
+color: #858484;
+font-size: 16px;
+}
+.footer--area{
+  padding: 40px 0;
+}
+.inner--footer {
+  display: grid;
+ place-items: center;
+}
+.footer--area li{
+margin-left: 40px;
+display: inline-block;
+}
+
+
+.footer--area a{
+text-decoration: none;
+color: #AFAFAF;
+font-size: 13px;
+display: block;
+  }
