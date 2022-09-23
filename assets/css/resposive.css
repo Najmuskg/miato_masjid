@@ -1,0 +1,59 @@
+/* Tablet layout */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.container{ max-width: 95%;}
+.donate--area a {font-size: 14px;}
+.banner--area {height: 100vh;background-size: contain;}
+.left--side { width: 55%;padding: 0;}
+.right--side { width: 45%;padding: 0;}
+.announcements--area h2 {font-size: 40px;}
+.announcements--text {font-size: 15px;max-width: 410px;}
+.eid { max-width: 350px;padding: 15px 15px;display: block;margin: 25px 0 0 0;}
+.date {font-size: 17px;}
+.eid--announcements {padding: 15px 0;}
+.eid--announcements h3 {font-size: 28px;}
+.announcements--link {font-size: 13px; }
+.holi--ashura { max-width: 350px;padding: 15px 15px;display: block;margin: 25px 0 0 0;}
+.ashura--announcements {padding: 15px 0;}
+.ashura--announcements h3 {font-size: 28px;}
+.ashura--text {max-width: 282px;}
+.view { font-size: 17px;margin-top: 35px;}
+.inner--prayer {padding: 0;}
+.prayer--times p {font-size: 14px;margin: 15px 0 35px 13px}
+.prayer::before {top: 119px; left: 12px;}
+.friday--prayer h5 {margin-top: 13px;}
+.prayers--list li {margin: 0 0 65px 11px;font-size: 16px;}
+.prayers--list img {margin-top: -9px;}
+.prayer--names {gap: 70px;}
+.iqamah--times {padding: 55px 0 0 0;}
+.inner--iqamah li {font-size: 16px;margin-bottom: 65px; }
+.inner--iqamah li img {margin-top: -9px;}
+.inner--iqamah {gap: 20px;}
+.help--us {margin-top: 60px;}
+.help--us h2 {font-size: 40px;}
+.help--us p {margin: 0px 0 20px -20px;}
+.help--us a {font-size: 13px;}
+.about--area {padding: 70px 0 0 0;}
+.about--area h2 {font-size: 46px;}
+.about--area p { max-width: 395px;}
+.inner--about ul {gap: 10px;grid-template-columns: 1fr 1fr 1fr;}
+.line--text {width: 144px;margin-top: 15px;font-size: 12px;}
+.station--text {width: 144px;margin-top: 15px;font-size: 12px;}
+.exit--text {width: 144px;margin-top: 15px;font-size: 12px;}
+.walking--text {width: 144px;margin-top: 15px;font-size: 12px;}
+.line {margin-top: 7px; font-size: 14px;}
+.address--text {width: 285px;margin-top: 11px;font-size: 12px;}
+.map img {max-width: 424px;}
+.direction--link { right: -301px;top: -26px;}
+.miner img {max-width: 68px;}
+.misato--masjid {gap: 7px;}
+.misato--masjid p {max-width: 245px; font-size: 13px;}
+.mobile {font-size: 13px;margin-top: 30px;max-width: 130px;}
+.navigations {left: -45px;}
+.navigations a {font-size: 14px;}
+.navigations li { margin-top: 15px;}
+.library {left: -80px;}
+.library a {font-size: 14px;}
+.library li {margin-top: 15px;}
+.footer--area a {font-size: 12px;}
+} 
