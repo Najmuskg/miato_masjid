@@ -65,10 +65,10 @@
 .donate--area a {padding: 6px 8px;font-size: 12px;}
 .banner--area {height: 23vh;margin-top: -18px;}
 .inner--work {flex-direction: column;}
-.left--side {order: 2; width: 100%;}
-.right--side {order: 1; width: 100%;}
+.left--side {order: 2; width: 95%; padding: 40px 0;}
+.right--side {order: 1; width: 95%;}
 .prayers-heading {font-size: 13px;padding: 8px 0;}
-.prayer--time {position: relative;margin-top: -71px;max-width: 305px;left: 45px;}
+.prayer--time {position: relative;margin-top: -71px;max-width: 305px;left: 20px;}
 .prayer--times h4 {font-size: 18px;padding: 0 0 10px 0;}
 .prayer::before {top: 77px;height: 3px;left: 25px;width: 61px;}
 .friday--prayer h5 {padding: 0 0 6px 0;margin-top: 11px;font-size: 12px;}
@@ -76,36 +76,37 @@
 .prayers--list li {margin-bottom: 25px;font-size: 12px;}
 .prayers--list img {max-width: 14px;margin-top: -7px;}
 .prayer--names {gap: 60px;}
-.iqamah--times {width: 305px;left: 45px;position: relative;}
+.iqamah--times {width: 305px;left: 20px;position: relative;}
 .iqamah--times h5 {font-size: 13px;padding: 8px 0;}
 .inner--iqamah li {margin-bottom: 25px;font-size: 12px;}
 .inner--iqamah li img {max-width: 14px;margin-top: -7px;}
-.help--us{padding: 160px 70px 65px 50px;position: relative;left: 44px;max-width: 186px;}
+.help--us{padding: 160px 70px 65px 50px;position: relative;left: 20px;max-width: 186px;}
 .help--us h2 {font-size: 30px;margin: 0 82px 15px -75px;}
 .help--us p {font-size: 12px;max-width: 238px;margin: 0 0 20px -26px;}
 .help--us a{padding: 5px 15px;font-size: 12px;margin: 0 192px 0 0;}
-.announcements--area h2 {font-size: 35px;margin-bottom: 15px;}
-.announcements--text {font-size: 12px;max-width: 371px;}
-.eid {display:block;padding: 10px 10px;margin: 29px 0 35px 0;max-width: 334px;}
+.announcements--area h2 {font-size: 35px;margin: 0 0 15px 31px;max-width: 303px;}
+.announcements--text {font-size: 12px;max-width: 309px;margin: 0 0 0 31px;}
+.eid {display:block;padding: 10px 10px;margin: 29px 0 35px 20px;max-width: 280px;}
 .date {font-size: 13px;}
 .eid--announcements h3 {font-size: 22px; margin-bottom: 10px;}
 .eid--text {font-size: 12px;max-width: 275px;}
 .announcements--link {padding: 8px 15px;font-size: 12px;}
-.holi--ashura {display:block;padding: 10px 10px;margin: 29px 0 45px 0;max-width: 334px;}
+.holi--ashura {display:block;padding: 10px 10px;margin: 29px 0 35px 20px;max-width: 280px;}
 .ashura--announcements h3 {font-size: 22px;}
 .ashura--text {font-size: 12px; max-width: 264px;}
-.view {font-size: 14px;letter-spacing: 0.2em;}
-.about--area h2 {font-size: 35px;}
-.about--area p { margin-bottom: 12px;max-width: 365px;font-size: 12px;}
+.view {font-size: 14px;letter-spacing: 0.2em;max-width: 303px;}
+.about--area h2 {font-size: 35px;max-width: 175px;margin: 0 0 15px 31px;}
+.about--area p {margin: 0 0 12px 31px;max-width: 309px;font-size: 12px;}
 .line {margin-top: 10px;font-size: 12px;}
-.inner--about ul {grid-template-columns: 1fr 1fr;gap: 20px 75px;}
+.inner--about{margin: 0 0 0 30px}
+.inner--about ul {grid-template-columns: 1fr 1fr;gap: 20px 35px;}
 .line--text {max-width: 118px;margin-top: 10px;font-size: 10px;}
 .station--text {max-width: 98px;margin-top: 10px;font-size: 10px;}
 .exit--text {max-width: 70px;margin-top: 10px;font-size: 10px;}
 .walking--text {max-width: 70px;margin-top: 10px;font-size: 10px;}
-.address--text {max-width: 260px;margin-top: 7px;font-size: 10px;}
-.direction--link {padding: 7px 10px;font-size: 12px;top: -29px; right: -307px;}
-.map img {max-width: 362px;padding: 6px 0;}
+.address--text {max-width: 209px;margin-top: 7px;font-size: 10px;}
+.direction--link {padding: 7px 10px;font-size: 12px;top: -29px; right: -268px;}
+.map img {max-width: 305px;padding: 6px 0;}
 .inner--contact {display: block;}
 .miner--text{position:relative; left:-22px;}
 .misato--masjid p {max-width: 324px;font-size: 12px;}
@@ -114,11 +115,13 @@
 .miner img {max-width: 35px;}
 .miner--text h4 {font-size: 13px;}
 .navigations {left: 0px;display: grid;place-items: center;margin-top: 31px;}
-.navigations ul{display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0 40px;}
+.navigations ul{display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0 24px;}
 .navigations a {font-size: 12px;}
-.library ul{display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0 40px;}
+.library ul{display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0 24px;}
 .library {left: 0;display: grid;place-items: center;margin-top: 31px;}
 .library a {font-size: 12px;}
 .footer--area a {font-size: 10px;}
+.footer--area li {margin:0 20px 0 0;}
+.footer--area li::after {top: 1px;right: -13px;}
   }
 
