@@ -125,3 +125,13 @@
 .footer--area li::after {top: 1px;right: -13px;}
   }
 
+  /* Medium Size Layout */
+
+  @media only screen and (min-width:991px) and (max-width:1370px){
+.container{max-width: 95%;}
+.left--side {width: 60%;}
+.right--side {width: 37%;}
+.map img {max-width: 640px;}
+.direction--link {right: -503px;}
+  }
+
