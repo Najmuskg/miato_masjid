@@ -12,6 +12,8 @@
 
 <body>
 
+    <!--------------Start Of Header area------------->
+
     <header class="header--area">
         <div class="inner--header container">
             <div class="logo--area">
@@ -20,15 +22,29 @@
                 </a>
             </div>
             <div class="donate--area">
-                <a href="#">Donate Us</a>
+                <a class="btn" href="#">Donate Us</a>
+                <div class="switch">
+                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                    <label for="language-toggle"></label>
+                    <span class="on">BN</span>
+                    <span class="off">EN</span>
+                </div>
             </div>
+
         </div>
     </header>
+    <!--------------End Of Header area------------->
 
-    <section class="banner--area" style="background-image: url(assets/image/masjid.png)">
+    <!--------------Start Of Banner area------------->
+    <section class="banner--area" style="background-image: url(assets/image/masjid.jpg)">
     </section>
+    <!--------------End Of Bnner area------------->
+
+    <!--------------Start Of Work area------------->
     <section class="work--area">
         <div class="inner--work container">
+
+            <!--------------Left Side------------->
             <div class="left--side">
                 <div class="announcements--area">
                     <h2>Announcements</h2>
@@ -40,12 +56,12 @@
                             <img src="assets/image/eId.png" alt="Eid">
                         </div>
                         <div class="eid--announcements">
-                            <p class="date">July 8th, 2022</p>
                             <h3>Eid 2022 Announcement</h3>
+                            <p class="date">July 8th, 2022</p>
                             <p class="eid--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dimyin
                                 eirmod tempor
                                 invidunt ut labore et dolore</p>
-                            <a href="#" class="announcements--link">Read More</a>
+                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                     <div class="holi--ashura">
@@ -53,25 +69,12 @@
                             <img src="assets/image/ashura.png" alt="Ashura">
                         </div>
                         <div class="ashura--announcements ">
-                            <p class="date">July 8th, 2022</p>
                             <h3>Holy Ashura</h3>
+                            <p class="date">July 8th, 2022</p>
                             <p class="ashura--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dimyin
                                 eirmod tempor
                                 invidunt ut labore et dolore</p>
-                            <a href="" class="announcements--link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="holi--ashura">
-                        <div class="ashura--logo">
-                            <img src="assets/image/ashura.png" alt="Ashura">
-                        </div>
-                        <div class="ashura--announcements">
-                            <p class="date">July 8th, 2022</p>
-                            <h3>Holy Ashura</h3>
-                            <p class="ashura--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dimyin
-                                eirmod tempor
-                                invidunt ut labore et dolore</p>
-                            <a href="" class="announcements--link">Read More</a>
+                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                     <a href="#" class="view">view More</a>
@@ -81,90 +84,52 @@
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                     <div class="inner--about">
-                      <ul>
-                        <li class="line">Line: 
-                            <ul> <li class="line--text">Musashiurawa(武蔵野線)</li></ul>
-                        </li>
-                        <li class="line">Station: 
-                            <ul> <li class="station--text">Shim-Misato(新三郷)</li></ul>
-                        </li>
-                        <li class="line">Exit:
-                            <ul> <li class="exit--text">Lalaport Exit</li></ul>
-                        </li>
-                        <li class="line">Walking Distance:
-                            <ul> <li class="walking--text">10 mins</li></ul>
-                        </li>
-                      </ul>
-                      <ul>
-                        <li class="line">Address:
-                            <ul> <li  class="address--text">341-0011, 1Chome-228-2 Uneme, Misato-shi, Saitama, Japan</li></ul>
-                        </li>
-                      </ul>
+                        <ul>
+                            <li class="line">Line:
+                                <ul>
+                                    <li class="line--text">Musashiurawa(武蔵野線)</li>
+                                </ul>
+                            </li>
+                            <li class="line">Station:
+                                <ul>
+                                    <li class="station--text">Shim-Misato(新三郷)</li>
+                                </ul>
+                            </li>
+                            <li class="line">Exit:
+                                <ul>
+                                    <li class="exit--text">Lalaport Exit</li>
+                                </ul>
+                            </li>
+                            <li class="line">Walking Distance:
+                                <ul>
+                                    <li class="walking--text">10 mins</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="line">Address:
+                                <ul>
+                                    <li class="address--text">341-0011, 1Chome-228-2 Uneme, Misato-shi, Saitama, Japan
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <a href="" class="direction--link">Get Direction</a>
+                    <a href="#" class="btn">Get Direction</a>
                     <div class="map">
                         <img src="assets/image/map.png" alt="">
                     </div>
                 </div>
-
-                <!-- <table >
-                    <tr>
-                        <th class="prayers--heading" colspan="3">Prayers Times</th>
-                    </tr>
-                   
-                    <tr>
-                        <td class="prayers" colspan="2">Prayers Times</td>
-                        <td class="friday">Friday Times</td>
-                    </tr>
-                  
-                    <tr>
-                        <th class="tble--text" colspan="3">Ithnin, 25 Muharram 1444   |   August 23, 2022 (Tue)</th>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
-                    <tr>
-                        <td class="name">Fzr</td>
-                        <td> <img src="/assets/image/Group 11.png" alt="" class="center"></td>
-                        <td class="right">4:25</td>
-                    </tr>
- 
-                </table> -->
             </div>
+
+            <!--------------Right Side------------->
             <div class="right--side">
                 <div class="prayer--time">
                     <h5 class="prayers-heading">Prayer Times</h5>
                     <div class="inner--prayer">
                         <div class="prayer--times">
                             <h4 class="prayer">Prayer Times</h4>
-                            <p>Ithnin, 25 Muharram 1444 | August 23, 2022 (Tue)</p>
+                            <p>Ithnin, 25 Muharram 1444 | August 23, 2022 (Tuesday)</p>
                             <div class="inner--prayer--times">
                                 <div class="prayer--names">
                                     <ul class="prayers--list">
@@ -183,7 +148,7 @@
                                         <li><img src="assets/image/miner_green.png" alt=""></li>
                                         <li><img src="assets/image/miner_green.png" alt=""></li>
                                         <li><img src="assets/image/miner_green.png" alt=""></li>
-                                        <li><img src="assets/image/miner_green.png"alt=""></li>
+                                        <li><img src="assets/image/miner_green.png" alt=""></li>
                                     </ul>
                                 </div>
                                 <div class="prayer--times">
@@ -200,7 +165,7 @@
                             </div>
                         </div>
                         <div class="friday--prayer">
-                            <h5>Friday Times</h5>
+                            <h5>Jum'ah Times</h5>
                         </div>
                     </div>
                 </div>
@@ -218,55 +183,57 @@
                             <li><img src="assets/image/miner_green.png" alt=""></li>
                             <li><img src="assets/image/miner_green.png" alt=""></li>
                             <li><img src="assets/image/miner_green.png" alt=""></li>
-                            <li><img src="assets/image/miner_green.png" alt=""></li>
-                            <li><img src="assets/image/miner_green.png" alt=""></li>
+                            <li><img class="soon-img" src="assets/image/miner_green.png" alt=""></li>
+                            <li><img class="isha-img" src="assets/image/miner_green.png" alt=""></li>
                         </ul>
-                        <ul>
+                        <ul class="iqamah--time">
                             <li>4:25</li>
                             <li>12:30</li>
                             <li>16:00</li>
-                            <li>Soon after Azan</li>
-                            <li>20:00</li>
+                            <li class="soon">Soon after Azan</li>
+                            <li class="isha-time">20:00</li>
                         </ul>
                     </div>
                 </div>
-                <div class="help--us" style="background-image: url(assets/image/help_us.png)">
+                <div class="help--us">
                     <h2>Help Us</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                     </p>
-                    <a href="">Donate</a>
+                    <a class="btn" href="">Donate</a>
                 </div>
             </div>
         </div>
     </section>
-    
+    <!--------------End Of Work area------------->
+
+    <!--------------Start Of Contact area------------->
     <section class="contact--area">
         <div class="inner--contact container">
             <div class="misato--masjid">
                 <div class="miner">
-                <img src="assets/image/miner_red.png" alt="">
-            </div>
-            <div class="miner--text">
-                <h4>Misato <span class="masjid">Masjid</span> </h4>
-                <p>341-0011, 1Chome-228-2 Uneme, Misato-shi,
-                    Saitama, Japan</p>
+                    <img src="assets/image/miner_red.png" alt="">
+                </div>
+                <div class="miner--text">
+                    <h4>Misato <span class="masjid">Masjid</span> </h4>
+                    <p>341-0011, 1Chome-228-2 Uneme, Misato-shi,
+                        Saitama, Japan</p>
                     <ul>
                         <li class="mobile">Mobile No. 1
                             <ul>
                                 <li>090-6474-6065</li>
                             </ul>
                         </li>
-                        <li  class="mobile">  Mobile No. 2 
+                        <li class="mobile"> Mobile No. 2
                             <ul>
                                 <li>090-6474-6065</li>
                             </ul>
                         </li>
-                        <li  class="mobile">Mobile No. 3 
+                        <li class="mobile">Mobile No. 3
                             <ul>
                                 <li>090-6474-6065</li>
                             </ul>
                         </li>
-                        <li  class="mobile">Mobile No. 4
+                        <li class="mobile">Mobile No. 4
                             <ul>
                                 <li>090-6474-6065</li>
                             </ul>
@@ -299,6 +266,9 @@
             </div>
         </div>
     </section>
+    <!--------------End Of contact area------------->
+
+    <!--------------Start Of Footer area------------->
     <footer class="footer--area">
         <div class="inner--footer container">
             <ul>
@@ -308,6 +278,7 @@
             </ul>
         </div>
     </footer>
+    <!--------------End Of Foter area------------->
 </body>
 
 </html>

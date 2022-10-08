@@ -492,7 +492,7 @@
   .map img {
     max-width: 640px;
   }
-  .direction--link {
+  .about--area a {
     right: -503px;
   }
 }
